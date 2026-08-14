@@ -1,0 +1,44 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--bg);
+    border-bottom: 1px solid var(--border);
+    font-family: "Cormorant Garamond", serif;
+
+}
+
+.nav .nav-left h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--text);
+    text-decoration: none;
+    
+
+}
+
+.nav .nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav .nav-right ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav .nav-right ul li a {
+    text-decoration: none;
+    margin: 0.5rem;
+    color: var(--text);
+    padding: 0.2rem;
+}
+
+.nav .nav-right ul li a:hover {
+    color: var(--color);
+    border-bottom: 2px solid var(--color);
+}
