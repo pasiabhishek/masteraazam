@@ -10,7 +10,7 @@ export default function Nav() {
             <div className="nav-right">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#About">About</a></li>
                     <li><a href="#">Book</a></li>
                     <li><a href="#">Music</a></li>
                     <li><a href="#">Podcast</a></li>

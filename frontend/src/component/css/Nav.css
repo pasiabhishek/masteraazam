@@ -6,7 +6,11 @@
     background-color: var(--bg);
     border-bottom: 1px solid var(--border);
     font-family: "Cormorant Garamond", serif;
-
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .nav .nav-left h1 {
