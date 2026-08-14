@@ -14,7 +14,6 @@
     font-weight: bold;
     color: var(--text);
     text-decoration: none;
-    
 
 }
 
@@ -41,4 +40,28 @@
 .nav .nav-right ul li a:hover {
     color: var(--color);
     border-bottom: 2px solid var(--color);
+}
+
+@media (max-width: 700px) {
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100vw;
+
+    }
+
+    .nav .nav-right ul {
+        flex-direction: column;
+        width: 100vw;
+    }
+    .nav .nav-right ul li{
+        margin: 0.5rem 0;
+    }
+
+    .nav .nav-right ul li a {
+        margin: auto;
+        width: 100vw;
+        padding-top: 1rem;
+
+    }
 }
