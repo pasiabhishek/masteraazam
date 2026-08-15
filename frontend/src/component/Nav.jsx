@@ -11,13 +11,14 @@ export default function Nav() {
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#About">About</a></li>
-                    <li><a href="#">Book</a></li>
-                    <li><a href="#">Music</a></li>
-                    <li><a href="#">Podcast</a></li>
-                    <li><a href="#">Project</a></li>
-                    <li><a href="#">Film</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#Book">Book</a></li>
+                    <li><a href="#Music">Music</a></li>
+                    <li><a href="#Reel">Reel</a></li>
+                    <li><a href="#Podcast">Podcast</a></li>
+                    <li><a href="#Project">Project</a></li>
+                    <li><a href="#Film">Film</a></li>
+                    <li><a href="#Blog">Blog</a></li>
+                    <li><a href="#Contact">Contact</a></li>
                 </ul>
             </div>
         </div>

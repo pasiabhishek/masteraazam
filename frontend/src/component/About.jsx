@@ -10,7 +10,7 @@ export default function About() {
                 <p>I'm Pasi Abhishek, known by my creative name Master Aazam.I'm a poet, storyteller, music creator, film-maker, and web developer. I founded Aazamira Production World to turn ideas into meaningful content that connects, inspires and leaves a mark.</p>
 
                 <div className="About__buttons">
-                    <button className="About__buttons__btn1">Explore My World <span>&rarr;</span></button>
+                    <button className="Hero__content__buttons__btn2 button">Explore My World <span>&rarr;</span></button>
                 </div>
             </div>
             <div className="About__image">

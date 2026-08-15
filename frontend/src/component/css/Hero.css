@@ -14,8 +14,6 @@
     justify-content: center;
     height: 100%;
     font-family: 'Manrope', sans-serif;
-z-index: 200;
-position: relative;
 }
 
 .Hero__content p {
@@ -52,56 +50,6 @@ position: relative;
     margin-top: 1rem;
 
 }
-.Hero__content__buttons button {
-    width: 150px;
-    height: 40px;
-    cursor: pointer;
-    font-family: 'Manrope', sans-serif;
-    font-weight: 700;
-
-}
-.Hero__content__buttons button:hover {
-    background-color: var(--primary);
-    color: var(--bg);
-    transition: all 0.3s ease-in-out;
-}
-
-.Hero__content__buttons  button span {
-    font-size: 0.rem;
-    font-family: 'Manrope', sans-serif;
-    font-weight: 700;
-    padding: 0.5rem 0.2rem;
-}
-
-.Hero__content__buttons .Hero__content__buttons__btn1 {
-    background-color: var(--color);
-    color: var(--bg);
-    border: none;
-    border-radius: 5px;
-}
-.Hero__content__buttons .Hero__content__buttons__btn1:hover {
-    background-color: var(--bg);
-    color: var(--color);
-    border: 1px solid var(--color);
-    border-radius: 5px;
-    transition: all 0.3s ease-in-out;
-}
-
-
-.Hero__content__buttons .Hero__content__buttons__btn2{
-    background-color: var(--bg);
-    color: var(--color);
-    border: 1px solid var(--color);
-    border-radius: 5px;
-}
-
-.Hero__content__buttons .Hero__content__buttons__btn2:hover {
-    background-color: var(--color);
-    color: var(--bg);
-    border: 1px solid var(--color);
-    border-radius: 5px;
-    transition: all 0.3s ease-in-out;
-}
 
 .Hero__image {
     width: 45%;
@@ -109,11 +57,16 @@ position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 100;
     position: relative;
 }
 .Hero__image img {
-    width: 70%;
+    width: 50%;
     height: 100%;
     object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.Hero__image:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
 }
