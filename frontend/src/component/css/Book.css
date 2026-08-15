@@ -26,14 +26,15 @@
     padding: 0%;
 }
 .Book_card{
-    margin: 1rem;
+    margin: 1rem 0rem;
     background-color: #fff;
     border-radius: 0.5rem;
     padding: 1rem;
+    transform: scale(0.9);
 
 }
 .Book_card:hover{
-    transform: scale(1.05);
+    transform: scale(1);
     transition: all 0.3s ease-in-out;
 }
 .Book_card img{
