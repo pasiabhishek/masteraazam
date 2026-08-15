@@ -1,66 +1,9 @@
 import React from 'react'
 import '../component/css/Book.css'
+import books from './data/Books.json'
 export default function Book() {
 
-  let books = [
-    {
-      "id": "book_001",
-      "title": "Lekh by Aazam",
-      "slug": "lekh-by-aazam",
-      "author": {
-        "name": "Master Aazam",
-        "slug": "master-aazam"
-      },
-      "category": "Poetry",
-      "language": "Hindi",
-      "publication": {
-        "status": "published",
-        "year": null
-      },
-      "specifications": {
-        "pages": 108,
-        "dimensions": "6 x 9 inches",
-        "format": "Paperback"
-      },
-      "media": {
-        "cover": "images/books/lekh-by-aazam-front-cover.jpg"
-      },
-      "description": "A collection of poetry by Master Aazam.",
-      "links": {
-        "buy": null,
-        "read": null
-      }
-    },
-    {
-      "id": "book_002",
-      "title": "Raagwaanjyotii",
-      "slug": "raagwaanjyotii",
-      "author": {
-        "name": "Master Aazam",
-        "slug": "master-aazam"
-      },
-      "category": "Poetry",
-      "language": "Hindi",
-      "publication": {
-        "status": "published",
-        "year": null
-      },
-      "specifications": {
-        "pages": null,
-        "dimensions": null,
-        "format": "Paperback"
-      },
-      "media": {
-        "cover": "images/books/raagwanjyoti-front-cover.jpg"
-      },
-      "description": "A poetic work by Master Aazam.",
-      "links": {
-        "buy": null,
-        "read": null
-      }
-    }
-  ]
-
+  
   return (
     <div className='Book' id='Book'>
       <div className='Book_background'>

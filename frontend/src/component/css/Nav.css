@@ -20,11 +20,13 @@
     font-family: "Anta", sans-serif;
     font-weight: bold;
     color: var(--text);
+    padding-bottom: 1rem;
 }
 
 .nav .nav-right {
     display: flex;
     align-items: center;
+
 }
 
 .nav .nav-right ul {
@@ -44,6 +46,21 @@
 .nav .nav-right ul li a:hover {
     color: var(--color);
     border-bottom: 2px solid var(--color);
+}
+
+@media (max-width: 700px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .nav .nav-right ul {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+        .nav .nav-right ul li{
+            margin: 0.3rem;
+        }
 }
 
 /* 

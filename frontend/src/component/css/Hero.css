@@ -68,3 +68,16 @@
     transition: all 0.3s ease-in-out;
     transform: scale(1.05);
 }
+@media (max-width: 700px) {
+    .Hero{
+        flex-direction: column;
+        background: linear-gradient( rgba(255, 255, 255, 0.3)), url("https://i.ibb.co/jkhSfL0N/master-aazam-removebg-preview.png") center / cover no-repeat ;
+        height: 100vh;
+    }
+    .Hero__content{
+        transform: scale(0.7);
+    }
+    .Hero__image{
+        display: none;
+    }
+}
