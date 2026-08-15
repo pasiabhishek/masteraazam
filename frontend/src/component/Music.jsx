@@ -67,7 +67,7 @@ export default function Music() {
                                 {song.artist}
                             </p>
                             <audio ref={audioRef} src={song.audio} onEnded={next } />
-                            <input type="range" name="play_bar" id="Play_bar" min="0" max="100" defaultValue="0"  />
+                            <input type="range" name="play_bar" id="Play_bar" min="0" max="100" defaultValue="0"   />
 
                             <div className="control_button">
                                 <div className="song_controls">
