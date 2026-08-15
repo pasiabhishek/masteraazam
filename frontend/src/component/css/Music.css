@@ -1,0 +1,18 @@
+
+.Music h1 {
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.Book_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.Music p {
+    padding: 0%;
+    font-size: 0.7rem;
+}

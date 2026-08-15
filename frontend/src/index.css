@@ -1,27 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Anta&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Imperial+Script&family=Manrope:wght@200..800&display=swap');
 
 
-:root{
-    --color:#000;
-    --bg:#fff;
-    --primary:#007bff;
-    --border:#ccc;
+:root {
+    --color: #000;
+    --bg: #fff;
+    --primary: #007bff;
+    --border: #ccc;
 }
+
 * {
     box-sizing: border-box;
-    padding: 0;
-
     margin: 0;
+    padding: 0;
 }
+
 button {
-    cursor: pointer;
+    width: 150px;
+    height: 40px;
     outline: none;
+    margin-top: 1rem;
+    font-family: 'Manrope', sans-serif;
+    cursor: pointer;
+    font-weight: 700;
 }
 
 button:hover {
-    transform: scale(1.05);
     transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
+    background-color: var(--primary);
+    color: var(--bg);
 }
+
+button span {
+    padding: 0.5rem 0.2rem;
+    font-size: 0.rem;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -31,55 +47,32 @@ body {
     caret-color: transparent;
 }
 
-
-button {
-    width: 150px;
-    height: 40px;
-    cursor: pointer;
-    font-family: 'Manrope', sans-serif;
-    font-weight: 700;
-    margin-top: 1rem;
-
-}
-button:hover {
-    background-color: var(--primary);
-    color: var(--bg);
-    transition: all 0.3s ease-in-out;
-}
-
-button span {
-    font-size: 0.rem;
-    font-family: 'Manrope', sans-serif;
-    font-weight: 700;
-    padding: 0.5rem 0.2rem;
-}
-
 .Hero__content__buttons__btn1 {
-    background-color: var(--color);
-    color: var(--bg);
     border: none;
     border-radius: 5px;
+    background-color: var(--color);
+    color: var(--bg);
 }
+
 .Hero__content__buttons__btn1:hover {
-    background-color: var(--bg);
-    color: var(--color);
     border: 1px solid var(--color);
     border-radius: 5px;
     transition: all 0.3s ease-in-out;
-}
-
-
-.Hero__content__buttons__btn2{
     background-color: var(--bg);
     color: var(--color);
+}
+
+.Hero__content__buttons__btn2 {
     border: 1px solid var(--color);
     border-radius: 5px;
+    background-color: var(--bg);
+    color: var(--color);
 }
 
 .Hero__content__buttons__btn2:hover {
-    background-color: var(--color);
-    color: var(--bg);
     border: 1px solid var(--color);
     border-radius: 5px;
     transition: all 0.3s ease-in-out;
+    background-color: var(--color);
+    color: var(--bg);
 }

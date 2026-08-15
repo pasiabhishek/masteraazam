@@ -1,65 +1,76 @@
-.Book{
-    background-color: #f5f5f5;
-    color: var(--color);
-    width: 100%;
-    padding: 2rem;
+.Book {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    width: 100%;
+    padding: 2rem;
+    background-color: #f5f5f5;
+    color: var(--color);
 }
-.Book_background{
+
+.Book_background {
     width: 70%;
 }
-.Book h1{
-    font-size: 1.5rem;
+
+.Book h1 {
     margin-bottom: 0.5rem;
     margin-top: 1rem;
+    margin-top: 7vh;
+    font-size: 1.5rem;
     text-align: left;
 }
-.Book_container{
+
+.Book_container {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
 }
-.Book_background p{
-    font-size: 0.7rem;
+
+.Book_background p {
     padding: 0%;
+    font-size: 0.7rem;
 }
-.Book_card{
+
+.Book_card {
     margin: 1rem 0rem;
-    background-color: #fff;
-    border-radius: 0.5rem;
     padding: 1rem;
     transform: scale(0.9);
+    background-color: #fff;
+    border-radius: 0.5rem;
+}
 
-}
-.Book_card:hover{
-    transform: scale(1);
+.Book_card:hover {
     transition: all 0.3s ease-in-out;
+    transform: scale(1);
 }
-.Book_card img{
+
+.Book_card img {
     width: 177px;
     height: 277px;
     border-radius: 0.5rem;
 }
-.Book_card h2{
+
+.Book_card h2 {
+    margin: 0.5rem 0;
     font-size: 1rem;
-    margin: 0.5rem 0;
     text-align: left;
 }
-.Book_card p{
+
+.Book_card p {
+    margin: 0.5rem 0;
     font-size: 0.7rem;
-    margin: 0.5rem 0;
     text-align: left;
 }
-.Book_card a{
-    display:inline-block;
+
+.Book_card a {
+    display: inline-block;
     margin-top: 0.5rem;
     font-size: 0.7rem;
     text-decoration: underline;
     font-weight: bold;
 }
-.Book_card a:hover{
-    color: var(--primary);
+
+.Book_card a:hover {
     font-weight: bold;
+    color: var(--primary);
 }
