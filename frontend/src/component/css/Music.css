@@ -89,8 +89,16 @@
 
 
 @media (max-width: 700px) {
+    .music *{
+        text-align: center;
+        justify-content: center;
+    }
+    .player{
+        width: 100%;
+    }
     .music_player{
         flex-direction: column;
+        text-align:;
     }
     .player{
         flex-direction: column;

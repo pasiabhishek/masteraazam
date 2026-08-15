@@ -13,7 +13,14 @@
     margin: 0;
     padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
 button {
     width: 150px;
     height: 40px;

@@ -55,8 +55,9 @@
 
     .nav .nav-right ul {
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
+        transform: scale(0.7);
     }
         .nav .nav-right ul li{
             margin: 0.3rem;
