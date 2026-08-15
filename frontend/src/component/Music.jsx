@@ -57,7 +57,7 @@ export default function Music() {
                 <p>Melodies that tells stories.</p>
                 <div className="music_player">
                     <div className="player">
-                        <img  src={song.artwork} width="250" alt={song.title}/>
+                        <img  src={song.cover_art} width="250" alt={song.title}/>
 
                         <div className="controls">
                             <h3 className="Song_name">
@@ -93,9 +93,8 @@ export default function Music() {
                     <div className="playlist">
 
                         {Songs.map((song, index) => (
-                            <div
-                                className={
-                                    currentSong === index
+                            <div className={
+                                currentSong === index
                                         ? "playlist-row active"
                                         : "playlist-row"
                                 }
