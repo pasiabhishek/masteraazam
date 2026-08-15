@@ -5,7 +5,7 @@ export default function Book() {
 
   
   return (
-    <div className='Book' id='Book'>
+    <div className='Book frame' id='Book'>
       <div className='Book_background'>
         <h1>Books</h1>
         <p>Words that speak to the soul.</p>

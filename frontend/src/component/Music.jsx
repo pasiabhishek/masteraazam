@@ -7,6 +7,8 @@ export default function Music() {
     const [isPlaying, setIsPlaying] = useState(false);
     const audioRef = useRef(null);
     const song = Songs[currentSong];
+    const [value, setValue] = useState(0);
+
 
     const play = () => {
         audioRef.current.play();
@@ -51,7 +53,7 @@ export default function Music() {
     };
 
     return (
-        <div className="Music" id="Music">
+        <div className="Music frame" id="Music">
             <div className="section">
                 <h1>Music</h1>
                 <p>Melodies that tells stories.</p>
@@ -68,7 +70,6 @@ export default function Music() {
                             </p>
                             <audio ref={audioRef} src={song.audio} onEnded={next } />
                             <input type="range" name="play_bar" id="Play_bar" min="0" max="100" defaultValue="0"   />
-
                             <div className="control_button">
                                 <div className="song_controls">
                                     <ul>

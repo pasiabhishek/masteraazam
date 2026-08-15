@@ -94,7 +94,6 @@
     background-color: var(--color);
     color: #fff;
     border-radius: 50%;
-    background: red;
 }
 
 
@@ -178,4 +177,11 @@
         width: 100%;
     }
 
+}
+
+
+
+.frame{
+    width: 100vw;
+    height: 100vh;
 }

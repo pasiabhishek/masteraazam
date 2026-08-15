@@ -3,7 +3,7 @@ import './css/Hero.css'
 
 export default function Hero() {
     return (
-        <div className="Hero">
+        <div className="Hero frame">
             <div className="Hero__content">
                 <p>WRITER, POET, STORYTELLER, FILM-MAKER, WEB DEVELOPER</p>
                 <h1>MASTER <br/> AAZAM</h1>
