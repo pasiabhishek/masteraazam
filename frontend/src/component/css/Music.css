@@ -58,9 +58,11 @@
     border-bottom: 1px solid black;
 
 }
+
 .playlist-row:first-child:hover {
     border-radius: 10px 10px 0 0;
 }
+
 .playlist-row:last-child {
     border-bottom: none;
 }
@@ -68,6 +70,7 @@
 .playlist-row:last-child:hover {
     border-radius: 0 0 10px 10px;
 }
+
 .playlist-row:hover {
     transform: scale(1.1);
     border: 1px solid black;
@@ -81,30 +84,45 @@
     transform: scale(0.7);
 
 }
-
-.song_title {
+.song_title{
     width: 70%;
 }
 
+.controls {
+    width: 100%;
+    height: 257px;
+    background-color: red;
+    text-align: left;
+    padding: 1rem;
 
-
+}
+.controls .Song_name{
+    padding-top: 0.5rem;
+}
+.controls .Song_Artist{
+    padding-bottom: 0.5rem;
+}
 @media (max-width: 700px) {
-    .music *{
+    .music * {
         text-align: center;
         justify-content: center;
     }
-    .player{
+
+    .player {
         width: 100%;
     }
-    .music_player{
+
+    .music_player {
         flex-direction: column;
-        text-align:;
+        justify-content: center;
     }
-    .player{
+
+    .player {
         flex-direction: column;
     }
-    .playlist{
+
+    .playlist {
         width: 100%;
     }
-    
+
 }
