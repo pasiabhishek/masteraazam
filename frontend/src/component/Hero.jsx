@@ -3,11 +3,10 @@ import { useEffect } from 'react'
 
 export default function Hero() {
     useEffect(()=>{
-        gsap.from('.Hero__content',{
-            x:1,
+        gsap.to('.Hero__content',{
+            x:32,
             duration:1,
             delay:1,
-            repeat:1
         })
     })
     
