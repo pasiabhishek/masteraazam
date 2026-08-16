@@ -84,7 +84,10 @@
         padding: 5rem 1rem 3rem;
         justify-content: center;
     }
+    .Book_background h1, .Book_background .p{
+        text-align: center;
 
+    }
     .Book_background {
         width: min(100%, 500px);
         justify-content: center;

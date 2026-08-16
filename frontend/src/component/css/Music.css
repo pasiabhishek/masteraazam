@@ -52,14 +52,16 @@
     justify-content: space-around;
 
 }
-.controls .Song_name{
+
+.controls .Song_name {
     padding-top: 0.5rem;
 }
-.controls .Song_Artist{
+
+.controls .Song_Artist {
     padding-bottom: 0.5rem;
 }
 
-#Play_bar{
+#Play_bar {
     width: 100%;
     height: 2px;
     background: #000;
@@ -68,7 +70,7 @@
 }
 
 /* ALL CONTROLS */
-.song_controls{
+.song_controls {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -76,7 +78,8 @@
     width: 100%;
 
 }
-.song_controls ul{
+
+.song_controls ul {
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -85,7 +88,8 @@
 
     width: 100%;
 }
-.song_controls ul li{
+
+.song_controls ul li {
     padding: 1rem;
     display: flex;
     justify-content: center;
@@ -93,7 +97,8 @@
     width: 10px;
     height: 10px;
 }
-.song_controls ul li:hover{
+
+.song_controls ul li:hover {
     background-color: var(--color);
     color: #fff;
     border-radius: 50%;
@@ -148,19 +153,27 @@
     transform: scale(0.7);
 
 }
-.song_title{
+
+.song_title {
     width: 70%;
 }
 
 
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
     .Music {
         align-items: flex-start;
         padding: 5rem 0 3rem;
     }
 
-    .Music .section { width: min(92%, 460px); }
+    .Music .section {
+        width: min(92%, 460px);
+        margin: auto;
+    }
+    .section h1, .section p{
+        text-align: center;
+
+    }
 
     .player {
         width: 100%;
@@ -174,7 +187,8 @@
     .player {
         flex-direction: column;
     }
-    img{
+
+    img {
         margin: auto;
     }
 

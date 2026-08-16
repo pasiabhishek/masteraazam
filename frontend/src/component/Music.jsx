@@ -64,9 +64,9 @@ export default function Music() {
                             <h3 className="Song_name">
                                 {song.title}
                             </h3>
-                            <p className="Song_Artist">
+                            <p1 className="Song_Artist">
                                 {song.artist}
-                            </p>
+                            </p1>
                             <audio ref={audioRef} src={song.audio} onEnded={next } />
                             <input type="range" name="play_bar" id="Play_bar" min="0" max="100" defaultValue="0"   />
                             <div className="control_button">
