@@ -23,8 +23,8 @@ export default function Podcast() {
     return (
         <div>
             <div className="section">
-                <h1>Music</h1>
-                <p>Melodies that tells stories.</p>
+                <h1>Podcast</h1>
+                <p>Talk that make you aware.</p>
 
                 <div className="Podcast">
                     <h1>COMING SOON</h1>
