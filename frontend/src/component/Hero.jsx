@@ -9,7 +9,8 @@ export default function Hero() {
             scrollTrigger:{
                 trigger: ".Hero__content",
                 scroller:"body",
-                start: "top 40%"
+                start: "top 40%",
+                scrub:2
             }
         })
     })
