@@ -5,8 +5,12 @@ export default function Hero() {
     useEffect(()=>{
         gsap.to('.Hero__content',{
             x:32,
-            duration:1,
-            delay:1,
+            duration:0.5,
+            scrollTrigger:{
+                trigger: ".Hero__content",
+                scroller:"body",
+                start: "top 40%"
+            }
         })
     })
     
