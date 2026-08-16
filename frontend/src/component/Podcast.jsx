@@ -13,7 +13,7 @@ export default function Podcast() {
                 x: "-200%",
                 scrollTrigger: {
                     trigger: ".Podcast",
-                    markers: true,
+                    // markers: true,
                     start: "top top",
                     end: "top -100%",
                     scrub: true,
