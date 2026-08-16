@@ -7,6 +7,9 @@
     --primary: #007bff;
     --border: #ccc;
 }
+body::-webkit-scrollbar{
+    display: none;
+}
 
 .frame,
 .About,
