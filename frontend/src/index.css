@@ -8,6 +8,13 @@
     --border: #ccc;
 }
 
+.frame,
+.About,
+.Reel {
+    min-height: 100vh;
+    min-height: 100svh;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -20,6 +27,7 @@ html {
 body {
   margin: 0;
   overflow-x: hidden;
+  margin-right: 180px;
 }
 button {
     width: 150px;
@@ -100,4 +108,9 @@ body {
 .section p {
     padding: 0%;
     font-size: 0.7rem;
+}
+
+@media (max-width: 700px) {
+    body { margin-right: 0; }
+    .section { width: min(92%, 680px); }
 }

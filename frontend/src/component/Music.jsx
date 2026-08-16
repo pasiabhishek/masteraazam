@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import "./css/Music.css";
 import Songs from "./data/Songs.json";
 
@@ -7,7 +7,6 @@ export default function Music() {
     const [isPlaying, setIsPlaying] = useState(false);
     const audioRef = useRef(null);
     const song = Songs[currentSong];
-    const [value, setValue] = useState(0);
 
 
     const play = () => {

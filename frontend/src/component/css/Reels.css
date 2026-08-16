@@ -1,0 +1,195 @@
+/* =========================
+   REELS SECTION
+========================= */
+
+.Reel {
+    width: 100%;
+    min-height: 100vh;
+    min-height: 100svh;
+    padding: 5rem clamp(1rem, 4vw, 3rem) 2.5rem;
+    background-color: var(--bg);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.reel_playground {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: min(100%, 1100px);
+    margin: 1.5rem auto 0;
+}
+
+/* =========================
+   REEL LIST
+========================= */
+
+.instagram-reel {
+    width: 100%;
+    overflow: hidden;
+}
+
+.reel_list {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem 0.5rem;
+    width: 100%;
+    margin: 0;
+
+    list-style: none;
+
+    overflow-x: auto;
+    scroll-behavior: smooth;
+
+    scrollbar-width: none;
+}
+
+.reel_list::-webkit-scrollbar {
+    display: none;
+}
+
+.reel_list li {
+    flex: 0 0 280px;
+}
+
+
+/* =========================
+   REEL FRAME
+========================= */
+
+.reel-frame {
+    position: relative;
+
+    width: 280px;
+    aspect-ratio: 9 / 16;
+
+    overflow: hidden;
+
+    background: #f5f5f5;
+    border-radius: 16px;
+
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.reel-frame:hover { transform: translateY(-5px); box-shadow: 0 18px 34px rgba(0, 0, 0, 0.16); }
+
+.reel-frame iframe {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border: 0;
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+
+.slider-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+
+    margin-top: 20px;
+}
+
+.slider-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 42px;
+    height: 42px;
+
+    border: 1px solid #222;
+    border-radius: 50%;
+
+    background: transparent;
+    color: #222;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.slider-btn:hover {
+    background: var(--primary);
+    color: white;
+    transform: scale(1.08);
+}
+
+.slider-btn:active {
+    transform: scale(0.95);
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 768px) {
+
+    .Reel {
+        padding: 5rem 1rem 2rem;
+    }
+
+    .reel_list {
+        gap: 15px;
+    }
+
+    .reel_list li {
+        flex: 0 0 240px;
+    }
+
+    .reel-frame {
+        width: 240px;
+        border-radius: 14px;
+    }
+
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 480px) {
+
+    .Reel {
+        padding: 5rem 1rem 2rem;
+    }
+
+
+    .reel_list {
+        gap: 12px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .reel_list li {
+        flex: 0 0 72vw;
+    }
+
+    .reel-frame {
+        width: 72vw;
+        max-width: 280px;
+        border-radius: 14px;
+    }
+
+    .slider-btn {
+        width: 38px;
+        height: 38px;
+    }
+
+}
+
+.remove-b-mar{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}

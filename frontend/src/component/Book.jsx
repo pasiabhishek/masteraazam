@@ -1,4 +1,3 @@
-import React from 'react'
 import '../component/css/Book.css'
 import books from './data/Books.json'
 export default function Book() {

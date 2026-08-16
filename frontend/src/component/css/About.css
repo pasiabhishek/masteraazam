@@ -4,8 +4,10 @@
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    height: 100%;
-    padding: 30vh 5vw;
+    min-height: 100vh;
+    min-height: 100svh;
+    gap: clamp(2rem, 8vw, 8rem);
+    padding: clamp(5rem, 12vh, 9rem) clamp(2rem, 7vw, 7rem);
     background-color: #ffffff;
 }
 
@@ -57,7 +59,7 @@
     border: 1px solid var(--color);
     border-radius: 5px;
 } */
- img {
+.About_image img {
     width: 100%;
     max-width: 420px;
     height: auto;
@@ -69,7 +71,8 @@
 @media (max-width: 900px) {
     .About {
         flex-direction: column;
-        padding: 10vh 5vw;
+        min-height: 100svh;
+        padding: 5rem 5vw 3rem;
         text-align: center;
     }
 

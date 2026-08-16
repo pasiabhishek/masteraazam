@@ -1,9 +1,8 @@
-import React from 'react'
 import './css/About.css'
 
 export default function About() {
     return (
-        <div className="About frame" id='About'>
+        <div className="About" id='About'>
             <div className="About_content">
                 <h2>About Me</h2>
                 <h1>A Creator with a Purpose</h1>

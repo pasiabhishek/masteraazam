@@ -1,39 +1,47 @@
 .nav {
     position: fixed;
     top: 0;
+    bottom: 0;
     right: 0;
-    left: 0;
     z-index: 1000;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    padding: 1rem 2rem;
+    justify-content: flex-start;
+    width: 180px;
+    padding: 2rem 1rem;
     font-family: "Cormorant Garamond", serif;
     background-color: var(--bg);
-    border-bottom: 1px solid var(--border);
+    border-left: 1px solid var(--border);
+    gap: 3rem;
 }
 
 .nav .nav-left h1 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-decoration: none;
     font-family: "Anta", sans-serif;
     font-weight: bold;
     color: var(--text);
-    padding-bottom: 1rem;
+    text-align: center;
+    width: 100%;
+    line-height: 1.2;
+    word-break: break-word;
 }
 
 .nav .nav-right {
     display: flex;
     align-items: center;
-
+    justify-content: center;
+    flex: 1;
 }
 
 .nav .nav-right ul {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
     list-style: none;
+    gap: 1.5rem;
 }
 
 .nav .nav-right ul li a {

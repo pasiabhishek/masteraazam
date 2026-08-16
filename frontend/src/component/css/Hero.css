@@ -3,8 +3,9 @@
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    height: 100%;
-    padding: 20vh 5vw;
+    min-height: 100vh;
+    min-height: 100svh;
+    padding: clamp(5rem, 12vh, 9rem) clamp(2rem, 7vw, 7rem);
     background-color: #f8f9fa;
 }
 
@@ -57,8 +58,9 @@
 }
 
 .Hero__image img {
-    width: 50%;
-    height: 100%;
+    width: min(100%, 340px);
+    max-height: 68svh;
+    height: auto;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -72,11 +74,14 @@
     .Hero{
         flex-direction: column;
         background: linear-gradient( rgba(255, 255, 255, 0.3)), url("https://i.ibb.co/jkhSfL0N/master-aazam-removebg-preview.png") center / cover no-repeat ;
-        height: 100vh;
+        min-height: 100svh;
+        padding: 5rem 1.5rem 3rem;
     }
     .Hero__content{
-        transform: scale(0.7);
+        transform: none;
+        width: min(100%, 430px);
     }
+    .Hero__content h1 { font-size: clamp(3.2rem, 15vw, 5rem); }
     .Hero__image{
         display: none;
     }
