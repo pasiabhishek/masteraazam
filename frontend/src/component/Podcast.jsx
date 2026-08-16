@@ -21,8 +21,16 @@ export default function Podcast() {
     }, []);
 
     return (
-        <div className="Podcast">
-            <h1>COMING SOON</h1>
+        <div>
+            <div className="section">
+                <h1>Music</h1>
+                <p>Melodies that tells stories.</p>
+
+                <div className="Podcast">
+                    <h1>COMING SOON</h1>
+                </div>
+            </div>
         </div>
+
     );
 }
