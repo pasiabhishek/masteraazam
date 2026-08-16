@@ -70,19 +70,35 @@
     transition: all 0.3s ease-in-out;
     transform: scale(1.05);
 }
+
 @media (max-width: 700px) {
-    .Hero{
+    .Hero {
         flex-direction: column;
-        background: linear-gradient( rgba(255, 255, 255, 0.3)), url("https://i.ibb.co/jkhSfL0N/master-aazam-removebg-preview.png") center / cover no-repeat ;
+        background: linear-gradient(rgba(255, 255, 255, 0.3)), url("https://i.ibb.co/jkhSfL0N/master-aazam-removebg-preview.png") center / cover no-repeat;
         min-height: 100svh;
         padding: 5rem 1.5rem 3rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
-    .Hero__content{
+
+    .Hero__content {
         transform: none;
         width: min(100%, 430px);
+        text-align: center;
+        margin: auto;
     }
-    .Hero__content h1 { font-size: clamp(3.2rem, 15vw, 5rem); }
-    .Hero__image{
+
+    .Hero__content h1 {
+        font-size: clamp(3.2rem, 15vw, 5rem);
+    }
+
+    .Hero__image {
         display: none;
+    }
+
+    .Hero__content__buttons {
+        align-items: center;
+        justify-content: center;
     }
 }
