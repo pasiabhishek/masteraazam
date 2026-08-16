@@ -3,8 +3,8 @@ import { useEffect } from 'react'
 
 export default function Hero() {
     useEffect(()=>{
-        gsap.to('.Hero__content',{
-            x:32,
+        gsap.from('.Hero__content',{
+            x:-132,
             duration:0.5,
             scrollTrigger:{
                 trigger: ".Hero__content",
