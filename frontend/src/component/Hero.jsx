@@ -1,6 +1,16 @@
 import './css/Hero.css'
+import { useEffect } from 'react'
 
 export default function Hero() {
+    useEffect(()=>{
+        gsap.to('.Hero__content',{
+            x:1,
+            duration:1,
+            delay:1,
+            repeat:1
+        })
+    })
+    
     return (
         <div className="Hero frame">
             <div className="Hero__content">
