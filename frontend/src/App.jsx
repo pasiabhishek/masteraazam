@@ -6,6 +6,7 @@ import Music from './component/Music'
 import SmoothScroll from './component/Smooth-scrolling'
 import './App.css'
 import Reels from './component/Reels'
+import Podcast from './component/Podcast'
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
       <Book />
       <Music />
       <Reels/>
+      <Podcast/>
       <Hero />
 
     </>

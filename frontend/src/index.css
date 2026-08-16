@@ -117,3 +117,20 @@ body {
     body { margin-right: 0; }
     .section { width: min(92%, 680px); }
 }
+
+
+
+
+.Podcast{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    
+}
+.Podcast h1{
+    font-size: 5rem;
+    white-space: nowrap;
+    transform: translateX(100%);
+}
