@@ -10,7 +10,7 @@ export default function Podcast() {
     useEffect(() => {
         const ctx = gsap.context(() => {
             gsap.to(".Podcast h1", {
-                x: "-150%",
+                x: "-200%",
                 scrollTrigger: {
                     trigger: ".Podcast",
                     markers: true,
@@ -32,7 +32,7 @@ export default function Podcast() {
                     <h1>Podcast</h1>
                     <h1>Talk that makes you aware.</h1>
 
-                    <h1>COMING SOON...</h1>
+                    <h1>Coming Soon...</h1>
                 </div>
             </div>
         </div >
