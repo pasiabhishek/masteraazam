@@ -2,18 +2,18 @@ import './css/Hero.css'
 import { useEffect } from 'react'
 
 export default function Hero() {
-    useEffect(()=>{
-        gsap.from('.Hero__content',{
-            x:-132,
-            duration:0.5,
-            scrollTrigger:{
-                trigger: ".Hero__content",
-                scroller:"body",
-                start: "top 40%",
-                scrub:2
-            }
-        })
-    })
+    // useEffect(()=>{
+    //     gsap.from('.Hero__content',{
+    //         x:-132,
+    //         duration:0.5,
+    //         scrollTrigger:{
+    //             trigger: ".Hero__content",
+    //             scroller:"body",
+    //             start: "top 40%",
+    //             scrub:2
+    //         }
+    //     })
+    // })
     
     return (
         <div className="Hero frame">
