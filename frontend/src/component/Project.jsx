@@ -19,7 +19,8 @@ export default function Project() {
                                     </h2>
                                     <p1 className='project_info'>
                                         {pro.description}
-                                    </p1><br />
+                                    </p1>
+                                    <p className='p5'>{pro.language}</p>
                                     <a href={pro.url}  target="_blank">Visit Project &rarr;</a>
                                 </div>
                             </div>
