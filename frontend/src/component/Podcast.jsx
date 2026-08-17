@@ -10,7 +10,7 @@ export default function Podcast() {
     useEffect(() => {
         const ctx = gsap.context(() => {
             gsap.to(".Podcast h1", {
-                x: "-200%",
+                x: "-100%",
                 scrollTrigger: {
                     trigger: ".Podcast",
                     // markers: true,
@@ -18,7 +18,7 @@ export default function Podcast() {
                     end: "top -100%",
                     scrub: true,
                     pin: true,
-                    scroll: ".podcast"
+                    scroll: "body"
                 }
             });
         }, podcastRef);
