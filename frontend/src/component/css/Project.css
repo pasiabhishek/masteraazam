@@ -52,7 +52,7 @@
 }
 @media (max-width : 750px) {
     .project_card {
-        width: 70vw;
+        width: 85vw;
 
     }
     .project_details h2{
