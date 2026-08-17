@@ -12,7 +12,7 @@ function App() {
   
   return (
     <>
-    {/* <SmoothScroll/> */}
+    <SmoothScroll/>
       <Nav />
       <Hero />
       <About />
