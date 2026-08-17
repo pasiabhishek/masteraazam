@@ -7,6 +7,7 @@ import SmoothScroll from './component/Smooth-scrolling'
 import './App.css'
 import Reels from './component/Reels'
 import Podcast from './component/Podcast'
+import Project from './component/Project'
 
 function App() {
   
@@ -20,6 +21,7 @@ function App() {
       <Music />
       <Reels/>
       <Podcast/>
+      <Project/>
       <Hero />
 
     </>

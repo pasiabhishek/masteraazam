@@ -7,7 +7,8 @@
     --primary: #007bff;
     --border: #ccc;
 }
-body::-webkit-scrollbar{
+
+body::-webkit-scrollbar {
     display: none;
 }
 
@@ -23,15 +24,19 @@ body::-webkit-scrollbar{
     margin: 0;
     padding: 0;
 }
+
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
+    font-family: "Anta", sans-serif;
+
 }
 
 body {
-  margin: 0;
-  overflow-x: hidden;
-  margin-right: 180px;
+    margin: 0;
+    overflow-x: hidden;
+    margin-right: 180px;
 }
+
 button {
     width: 150px;
     height: 40px;
@@ -114,22 +119,28 @@ body {
 }
 
 @media (max-width: 700px) {
-    body { margin-right: 0; }
-    .section { width: min(92%, 680px); }
+    body {
+        margin-right: 0;
+    }
+
+    .section {
+        width: min(92%, 680px);
+    }
 }
 
 
 
 
-.Podcast{
+.Podcast {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
     align-items: center;
     display: flex;
-    
+
 }
-.Podcast h1{
+
+.Podcast h1 {
     font-size: 5rem;
     white-space: nowrap;
     transform: translateX(200%);
