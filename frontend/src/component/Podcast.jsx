@@ -18,7 +18,7 @@ export default function Podcast() {
                     end: "top -100%",
                     scrub: true,
                     pin: true,
-                    scroll: "body"
+                    scroll: ".podcast"
                 }
             });
         }, podcastRef);
