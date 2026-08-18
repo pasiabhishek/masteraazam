@@ -173,7 +173,7 @@
         padding-right: 5px;
     }
     .reel_list li {
-        flex: 0 0 calc((100% - (2 * 12px)) / 1.5);
+        flex: 0 0 calc((100% - (2 * 12px)) / 1.1);
     }
     .reel-frame {
         border-radius: 14px;
