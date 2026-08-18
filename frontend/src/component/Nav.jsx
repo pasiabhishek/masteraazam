@@ -16,7 +16,7 @@ export default function Nav() {
                     <li><a href="#Podcast">Podcast</a></li>
                     <li><a href="#Project">Project</a></li>
                     {/* <li><a href="#Film">Film</a></li> */}
-                    <li><a href="#Blog">Blog</a></li>
+                    {/* <li><a href="#Blog">Blog</a></li> */}
                     <li><a href="#Contact">Contact</a></li>
                 </ul>
             </div>
