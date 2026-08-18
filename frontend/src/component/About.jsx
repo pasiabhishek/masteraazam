@@ -14,7 +14,7 @@ export default function About() {
             </div>
             <div className="About_image">
 
-                <img src="https://scontent.cdninstagram.com/v/t51.82787-19/767455812_17938860504339578_6253033938252931196_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=101&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=tKYg1BjkPR8Q7kNvwFJ8ynX&_nc_oc=Adrpbx53qbrE4iz1rlD5iDqMWHPLgI0io-KaiGMRqGH5hWCfUgdPIYNqZE05k1KIP0M&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=lhAgQ2lt6yRN1b358Ha7Nw&_nc_ss=7ba8c&oh=00_AQH_3KIyfeGevXL7CT-alz3BgEQsdVpU3Wl_nW3bGBsh6Q&oe=6A86A0A3" alt="Hero Image" width="350"/>
+                <img src="https://scontent.cdninstagram.com/v/t51.82787-19/767455812_17938860504339578_6253033938252931196_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=101&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=tKYg1BjkPR8Q7kNvwFJ8ynX&_nc_oc=Adrpbx53qbrE4iz1rlD5iDqMWHPLgI0io-KaiGMRqGH5hWCfUgdPIYNqZE05k1KIP0M&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=lhAgQ2lt6yRN1b358Ha7Nw&_nc_ss=7ba8c&oh=00_AQH_3KIyfeGevXL7CT-alz3BgEQsdVpU3Wl_nW3bGBsh6Q&oe=6A86A0A3" alt="Hero Image" />
             </div>
 
         </div>
