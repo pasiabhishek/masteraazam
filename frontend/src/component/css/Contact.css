@@ -1,0 +1,48 @@
+.Contact {
+    width: 100%;
+    min-height: 100vh;
+    min-height: 100svh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    font-family: "Anta", sans-serif;
+
+}
+
+.Contact .Contact_text {
+    width: 50vw;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.Contact h1{
+    margin: 0.7rem 0px;
+}
+.Contact h3{
+    margin: 0.1rem 0px;
+}
+.Contact p{
+    margin: 0.3rem 0px;
+}
+.Contact .social{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.Contact .social a{
+    padding: 1rem;
+}
+
+
+
+
+
+
+@media (max-width: 700px) {
+  .Contact{
+    flex-direction: column;
+  }
+
+}

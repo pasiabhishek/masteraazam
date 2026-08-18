@@ -8,6 +8,7 @@ import './App.css'
 import Reels from './component/Reels'
 import Podcast from './component/Podcast'
 import Project from './component/Project'
+import Contact from './component/Contact'
 
 function App() {
   
@@ -22,6 +23,7 @@ function App() {
       <Reels/>
       <Podcast/>
       <Project/>
+      <Contact/>
       <Hero />
 
     </>
