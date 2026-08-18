@@ -11,16 +11,24 @@ export default function Contact() {
                 <p><i class="fa-solid fa-envelope"></i>  hello@masteraazam.com </p>
                 <p><i class="fa-solid fa-location-dot"></i>  Mumbai , Maharashtra, India </p>
                 <div className="social">
-                    <a href="">I</a>
-                    <a href="">Y</a>
-                    <a href="">L</a>
-                    <a href="">G</a>
+                    <a href="https://www.instagram.com/masteraazam" target='_blank'>
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/pasi-abhishek/" target='_blank'>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/pasiabhishek" target='_blank'>
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="" target='_blank'>
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
                 </div>
             </div>
             <div className="Contact_form">
                 <form action="" method='Post'>
-                    <input type="text" placeholder='Your name'  required/>
-                    <input type="email" placeholder='name@email.com'  required/>
+                    <input type="text" placeholder='Your name' required />
+                    <input type="email" placeholder='name@email.com' required />
                     <textarea name="messase" id="message" placeholder='Enter your message' required></textarea>
 
                     <button type="submit">Send message</button>
