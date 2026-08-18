@@ -21,7 +21,7 @@ export default function Contact() {
                 <form action="" method='Post'>
                     <input type="text" placeholder='Your name' />
                     <input type="email" placeholder='name@email.com' />
-                    <textarea name="messase" id="message" width="7rem" rows="5" cols="27"></textarea>
+                    <textarea name="messase" id="message" placeholder='Enter your message'></textarea>
                 </form>
             </div>
         </div>
