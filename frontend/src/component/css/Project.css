@@ -19,7 +19,7 @@
     padding: 2vh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: stretch;
 }
 
 .project .project_list .project_card {

@@ -143,5 +143,14 @@ body {
 .Podcast h1 {
     font-size: 5rem;
     white-space: nowrap;
+    text-align: center;
+    justify-content: stretch;
     transform: translateX(200%);
+}
+
+@media (max-width: 700px) {
+
+    .Podcast h1{
+    font-size: 2.5rem;
+    }
 }
