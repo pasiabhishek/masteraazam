@@ -6,7 +6,7 @@ export default function About() {
             <div className="About_content">
                 <h2>About Me</h2>
                 <h1>A Creator with a Purpose</h1>
-                <p>I'm Pasi Abhishek, known by my creative name Master Aazam.I'm a poet, storyteller, music creator, film-maker, and web developer. I founded Aazamira Production World to turn ideas into meaningful content that connects, inspires and leaves a mark.</p>
+                <p>I'm <b>Pasi Abhishek</b>, <i>known by my creative name <b>Master Aazam</b></i>.I'm a poet, storyteller, music creator, film-maker, and web developer. I founded Aazamira Production World to turn ideas into meaningful content that connects, inspires and leaves a mark.</p>
 
                 <div className="About__buttons">
                     <button className="Hero__content__buttons__btn2 button">Explore My World <span>&rarr;</span></button>
