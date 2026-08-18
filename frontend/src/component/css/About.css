@@ -9,6 +9,8 @@
     gap: clamp(2rem, 8vw, 8rem);
     padding: clamp(5rem, 12vh, 9rem) clamp(2rem, 7vw, 7rem);
     background-color: #ffffff;
+        border-top: 1px solid black;
+
 }
 
 .About_content {

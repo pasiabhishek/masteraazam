@@ -5,6 +5,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-top: 1px solid black;
+
 }
 
 .Music .section {
@@ -170,7 +172,9 @@
         width: min(92%, 460px);
         margin: auto;
     }
-    .section h1, .section p{
+
+    .section h1,
+    .section p {
         text-align: center;
 
     }

@@ -6,6 +6,7 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    border-top: 1px solid black;
     font-family: "Anta", sans-serif;
     padding: 2vh 0;
     border-top: 1px solid black;
@@ -70,7 +71,7 @@
     padding: 0.5rem;
     font-family: "Anta", sans-serif;
     caret-color: black;
-     border-radius: 10px;
+    border-radius: 10px;
     border: 1px solid black;
 }
 
@@ -86,4 +87,3 @@
     margin: auto;
 
 }
-

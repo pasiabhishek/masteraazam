@@ -139,6 +139,8 @@ body {
     overflow: hidden;
     align-items: center;
     display: flex;
+    border-top: 1px solid black;
+
 
 }
 
