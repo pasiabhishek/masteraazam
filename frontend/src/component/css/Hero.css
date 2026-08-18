@@ -9,6 +9,10 @@
     padding: clamp(5rem, 12vh, 9rem) clamp(2rem, 7vw, 7rem);
     background-color: #f8f9fa;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 
 .Hero__content {
     display: flex;
