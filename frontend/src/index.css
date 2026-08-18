@@ -26,6 +26,11 @@ body::-webkit-scrollbar {
     font-family: "Anta", sans-serif;
 
 }
+body::selection{
+    background-color: black;
+    padding: 0.5rem;
+    color: white;
+}
 
 html {
     scroll-behavior: smooth;
