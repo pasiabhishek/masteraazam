@@ -8,8 +8,8 @@ export default function Contact() {
                 <h3>Contact</h3>
                 <h1>Let's talk</h1>
                 <h3>Got a project , collab or just want to say hi?</h3>
-                <p>hello@masteraazam.com </p>
-                <p>Mumbai , Maharashtra, India </p>
+                <p><i class="fa-solid fa-envelope"></i>  hello@masteraazam.com </p>
+                <p><i class="fa-solid fa-location-dot"></i>  Mumbai , Maharashtra, India </p>
                 <div className="social">
                     <a href="">I</a>
                     <a href="">Y</a>
