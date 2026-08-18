@@ -62,7 +62,7 @@
     border-radius: 5px;
 } */
 .About_image img {
-    width: 100%;
+    width: 12rem;
     max-width: 420px;
     height: auto;
     object-fit: cover;
